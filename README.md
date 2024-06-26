@@ -9,6 +9,6 @@
 
 - Everything is just a container inside a container...
 
-![alt text](bestbuy-containers.png)
+![alt text](/pictures/bestbuy-containers.png)
 
 So.... should be ez right?
