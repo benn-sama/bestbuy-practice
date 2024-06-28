@@ -108,7 +108,7 @@ a {
 }
 
 .location button {
-    align-items: ceter;
+    align-items: center;
     color: white;
     display: flex;
     border: unset;
@@ -116,4 +116,65 @@ a {
     background-color: #0046be;
     font-size: 22px;
     font-weight: 700;
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cart img {
+    width: auto;
+    height: 40px;
+}
+
+.cart button {
+    align-items: center;
+    color: white;
+    display: flex;
+    border: unset;
+    padding: unset;
+    background-color: #0046be;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.utility {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0046be;
+    flex-direction: row;
+    width: 100%;
+    border-top: 20px     #2b5df5;
+    padding: 12px;
+    padding-left: 7rem;
+    position: relative;
+}
+
+.utility-left {
+    display: flex;
+    justify-content: center;
+    font-weight: 400px;
+    font-size: 14px;
+    gap: 1rem;
+}
+
+.utility-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 7rem;
+    gap: 2rem;
+}
+
+.utility-right button {
+    align-items: center;
+    color: white;
+    background-color: #0046be;
+    border: unset;
+    padding: unset;
+    font-size: 14px;
+    font-weight: 400px;
 }
